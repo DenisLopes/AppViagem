@@ -14,4 +14,5 @@ class PacoteViagemCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var labelQuantidadeDias: UILabel!
     @IBOutlet weak var labelPreco: UILabel!
     
+    
 }

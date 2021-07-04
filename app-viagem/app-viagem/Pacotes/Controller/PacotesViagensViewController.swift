@@ -9,9 +9,11 @@ import UIKit
 
 class PacotesViagensViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout,UICollectionViewDelegate, UISearchBarDelegate {
     
+    
     @IBOutlet weak var colecaoPacotesViagens: UICollectionView!
     @IBOutlet weak var pesquisarViagens: UISearchBar!
     @IBOutlet weak var labelContadorPacotes: UILabel!
+
     
     let listaComTodasViagens: Array<PacoteViagem> = PacoteViagemDAO().retornaTodasAsViagens()
     var listaViagens:Array<PacoteViagem> = []
@@ -63,11 +65,9 @@ class PacotesViagensViewController: UIViewController, UICollectionViewDataSource
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         listaViagens = listaComTodasViagens
         if searchText != "" {
-            let filtroListaViagem = NSPredicate(format: "titulo contains %@", searchText)
-            let listaFiltrada:Array<PacoteViagem> = (listaViagens as NSArray).filtered(using: filtroListaViagem) as! Array
-            listaViagens = listaFiltrada
+            listaViagens = listaViagens.filter({ $0.viagem.titulo.contains(searchText) })
         }
-        
+                
         self.labelContadorPacotes.text = self.atualizaContadorlabel()
         colecaoPacotesViagens.reloadData()
     }

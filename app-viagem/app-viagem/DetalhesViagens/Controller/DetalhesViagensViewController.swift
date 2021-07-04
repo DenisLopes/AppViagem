@@ -15,7 +15,6 @@ class DetalhesViagensViewController: UIViewController {
     @IBOutlet weak var labelDataViagemPacoteViagem: UILabel!
     @IBOutlet weak var labelPrecoPacoteViagem: UILabel!
     
-    
     var pacoteSelecionado:PacoteViagem? = nil
 
     override func viewDidLoad() {
@@ -30,7 +29,7 @@ class DetalhesViagensViewController: UIViewController {
 
     }
     
-    @IBAction func botaoVoltar(_ sender: UIButton) {
+    @IBAction func botaoVolatar(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
 
