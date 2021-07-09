@@ -38,6 +38,7 @@
 		108F9414268A8F100044276C /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F9413268A8F100044276C /* Viagem.swift */; };
 		10AE0439268AA66700086DF5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AE0438268AA66700086DF5 /* TableViewCell.swift */; };
 		10AE0455268AAE0800086DF5 /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AE0454268AAE0800086DF5 /* ViagemDAO.swift */; };
+		10FFC4712698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC4702698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		108F9413268A8F100044276C /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		10AE0438268AA66700086DF5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		10AE0454268AAE0800086DF5 /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = "../../../../../../Downloads/Arquivos Projeto 3/ViagemDAO.swift"; sourceTree = "<group>"; };
+		10FFC4702698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoPagamentoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				10AE0448268AAC0700086DF5 /* Home */,
 				1077A2EB268D3EFF002D04BA /* Pacotes */,
 				104D884D2690C98F004A7E0D /* DetalhesViagens */,
+				10FFC46E2698BC19009488E8 /* ConfirmacaoPagamento */,
 				10AE044B268AAC9400086DF5 /* ViagemDao */,
 				108F94052689EE380044276C /* Main.storyboard */,
 				104D88562690DD63004A7E0D /* Assets */,
@@ -236,6 +239,22 @@
 				10AE0454268AAE0800086DF5 /* ViagemDAO.swift */,
 			);
 			path = ViagemDao;
+			sourceTree = "<group>";
+		};
+		10FFC46E2698BC19009488E8 /* ConfirmacaoPagamento */ = {
+			isa = PBXGroup;
+			children = (
+				10FFC46F2698BC56009488E8 /* Controller */,
+			);
+			path = ConfirmacaoPagamento;
+			sourceTree = "<group>";
+		};
+		10FFC46F2698BC56009488E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10FFC4702698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +348,7 @@
 				108F9414268A8F100044276C /* Viagem.swift in Sources */,
 				108F94042689EE380044276C /* ViewController.swift in Sources */,
 				104D88512690CA22004A7E0D /* DetalhesViagensViewController.swift in Sources */,
+				10FFC4712698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift in Sources */,
 				1065F6B4268D468200170A78 /* PacoteViagemCollectionViewCell.swift in Sources */,
 				10AE0439268AA66700086DF5 /* TableViewCell.swift in Sources */,
 				104D88532690DA38004A7E0D /* PacoteViagem.swift in Sources */,
