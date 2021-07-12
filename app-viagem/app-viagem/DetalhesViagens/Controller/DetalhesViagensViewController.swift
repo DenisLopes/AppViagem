@@ -55,7 +55,9 @@ class DetalhesViagensViewController: UIViewController {
     }
     
     @IBAction func botaoVolatar(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        if let navigation = navigationController{
+            navigation.popViewController(animated: true)
+        }
     }
     
     @IBAction func botaoFinalizarCompra(_ sender: UIButton) {
