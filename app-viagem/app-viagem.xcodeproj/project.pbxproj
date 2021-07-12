@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104D88512690CA22004A7E0D /* DetalhesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D88502690CA22004A7E0D /* DetalhesViagensViewController.swift */; };
+		104D88532690DA38004A7E0D /* PacoteViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D88522690DA38004A7E0D /* PacoteViagem.swift */; };
+		104D88552690DD41004A7E0D /* PacoteViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D88542690DD41004A7E0D /* PacoteViagemDAO.swift */; };
+		104D88682690DD63004A7E0D /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D88572690DD63004A7E0D /* icon_back.png */; };
+		104D88692690DD63004A7E0D /* icon_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D88582690DD63004A7E0D /* icon_search@2x.png */; };
+		104D886A2690DD63004A7E0D /* icon_package@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D88592690DD63004A7E0D /* icon_package@2x.png */; };
+		104D886B2690DD63004A7E0D /* img9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D885A2690DD63004A7E0D /* img9.jpg */; };
+		104D886C2690DD63004A7E0D /* img8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D885B2690DD63004A7E0D /* img8.jpg */; };
+		104D886D2690DD63004A7E0D /* icon_airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D885C2690DD63004A7E0D /* icon_airplane.png */; };
+		104D886E2690DD63004A7E0D /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D885D2690DD63004A7E0D /* img5.jpg */; };
+		104D886F2690DD63004A7E0D /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D885E2690DD63004A7E0D /* img4.jpg */; };
+		104D88702690DD63004A7E0D /* img6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D885F2690DD63004A7E0D /* img6.jpg */; };
+		104D88712690DD63004A7E0D /* img7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D88602690DD63004A7E0D /* img7.jpg */; };
+		104D88722690DD63004A7E0D /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D88612690DD63004A7E0D /* img3.jpg */; };
+		104D88732690DD63004A7E0D /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D88622690DD63004A7E0D /* img2.jpg */; };
+		104D88742690DD63004A7E0D /* icon_breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D88632690DD63004A7E0D /* icon_breakfast.png */; };
+		104D88752690DD63004A7E0D /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D88642690DD63004A7E0D /* img1.png */; };
+		104D88762690DD63004A7E0D /* img11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D88652690DD63004A7E0D /* img11.jpg */; };
+		104D88772690DD63004A7E0D /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 104D88662690DD63004A7E0D /* img10.jpg */; };
+		104D88782690DD63004A7E0D /* icon_hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 104D88672690DD63004A7E0D /* icon_hotel.png */; };
 		1065F6B2268D454D00170A78 /* PacotesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1065F6B1268D454D00170A78 /* PacotesViagensViewController.swift */; };
 		1065F6B4268D468200170A78 /* PacoteViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1065F6B3268D468200170A78 /* PacoteViagemCollectionViewCell.swift */; };
 		108F94002689EE380044276C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F93FF2689EE380044276C /* AppDelegate.swift */; };
@@ -17,15 +37,31 @@
 		108F940C2689EE390044276C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108F940A2689EE390044276C /* LaunchScreen.storyboard */; };
 		108F9414268A8F100044276C /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108F9413268A8F100044276C /* Viagem.swift */; };
 		10AE0439268AA66700086DF5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AE0438268AA66700086DF5 /* TableViewCell.swift */; };
-		10AE0442268AA95C00086DF5 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AE043D268AA95C00086DF5 /* img5.jpg */; };
-		10AE0443268AA95C00086DF5 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AE043E268AA95C00086DF5 /* img4.jpg */; };
-		10AE0444268AA95C00086DF5 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AE043F268AA95C00086DF5 /* img3.jpg */; };
-		10AE0445268AA95C00086DF5 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AE0440268AA95C00086DF5 /* img2.jpg */; };
-		10AE0446268AA95C00086DF5 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AE0441268AA95C00086DF5 /* img1.png */; };
 		10AE0455268AAE0800086DF5 /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AE0454268AAE0800086DF5 /* ViagemDAO.swift */; };
+		10FFC4712698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC4702698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		104D88502690CA22004A7E0D /* DetalhesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagensViewController.swift; sourceTree = "<group>"; };
+		104D88522690DA38004A7E0D /* PacoteViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagem.swift; sourceTree = "<group>"; };
+		104D88542690DD41004A7E0D /* PacoteViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacoteViagemDAO.swift; sourceTree = "<group>"; };
+		104D88572690DD63004A7E0D /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		104D88582690DD63004A7E0D /* icon_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_search@2x.png"; sourceTree = "<group>"; };
+		104D88592690DD63004A7E0D /* icon_package@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_package@2x.png"; sourceTree = "<group>"; };
+		104D885A2690DD63004A7E0D /* img9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img9.jpg; sourceTree = "<group>"; };
+		104D885B2690DD63004A7E0D /* img8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img8.jpg; sourceTree = "<group>"; };
+		104D885C2690DD63004A7E0D /* icon_airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_airplane.png; sourceTree = "<group>"; };
+		104D885D2690DD63004A7E0D /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		104D885E2690DD63004A7E0D /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		104D885F2690DD63004A7E0D /* img6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img6.jpg; sourceTree = "<group>"; };
+		104D88602690DD63004A7E0D /* img7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img7.jpg; sourceTree = "<group>"; };
+		104D88612690DD63004A7E0D /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		104D88622690DD63004A7E0D /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		104D88632690DD63004A7E0D /* icon_breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_breakfast.png; sourceTree = "<group>"; };
+		104D88642690DD63004A7E0D /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		104D88652690DD63004A7E0D /* img11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img11.jpg; sourceTree = "<group>"; };
+		104D88662690DD63004A7E0D /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
+		104D88672690DD63004A7E0D /* icon_hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hotel.png; sourceTree = "<group>"; };
 		1065F6B1268D454D00170A78 /* PacotesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensViewController.swift; sourceTree = "<group>"; };
 		1065F6B3268D468200170A78 /* PacoteViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemCollectionViewCell.swift; sourceTree = "<group>"; };
 		108F93FC2689EE380044276C /* app-viagem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-viagem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,12 +74,8 @@
 		108F940D2689EE390044276C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		108F9413268A8F100044276C /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		10AE0438268AA66700086DF5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		10AE043D268AA95C00086DF5 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
-		10AE043E268AA95C00086DF5 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
-		10AE043F268AA95C00086DF5 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
-		10AE0440268AA95C00086DF5 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
-		10AE0441268AA95C00086DF5 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		10AE0454268AAE0800086DF5 /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = "../../../../../../Downloads/Arquivos Projeto 3/ViagemDAO.swift"; sourceTree = "<group>"; };
+		10FFC4702698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoPagamentoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +89,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		104D884D2690C98F004A7E0D /* DetalhesViagens */ = {
+			isa = PBXGroup;
+			children = (
+				104D884E2690C9C4004A7E0D /* View */,
+				104D884F2690C9CC004A7E0D /* Controller */,
+			);
+			path = DetalhesViagens;
+			sourceTree = "<group>";
+		};
+		104D884E2690C9C4004A7E0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		104D884F2690C9CC004A7E0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				104D88502690CA22004A7E0D /* DetalhesViagensViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		104D88562690DD63004A7E0D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				104D88572690DD63004A7E0D /* icon_back.png */,
+				104D88582690DD63004A7E0D /* icon_search@2x.png */,
+				104D88592690DD63004A7E0D /* icon_package@2x.png */,
+				104D885A2690DD63004A7E0D /* img9.jpg */,
+				104D885B2690DD63004A7E0D /* img8.jpg */,
+				104D885C2690DD63004A7E0D /* icon_airplane.png */,
+				104D885D2690DD63004A7E0D /* img5.jpg */,
+				104D885E2690DD63004A7E0D /* img4.jpg */,
+				104D885F2690DD63004A7E0D /* img6.jpg */,
+				104D88602690DD63004A7E0D /* img7.jpg */,
+				104D88612690DD63004A7E0D /* img3.jpg */,
+				104D88622690DD63004A7E0D /* img2.jpg */,
+				104D88632690DD63004A7E0D /* icon_breakfast.png */,
+				104D88642690DD63004A7E0D /* img1.png */,
+				104D88652690DD63004A7E0D /* img11.jpg */,
+				104D88662690DD63004A7E0D /* img10.jpg */,
+				104D88672690DD63004A7E0D /* icon_hotel.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		1077A2EB268D3EFF002D04BA /* Pacotes */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,9 +186,11 @@
 				10AE0447268AABE700086DF5 /* Model */,
 				10AE0448268AAC0700086DF5 /* Home */,
 				1077A2EB268D3EFF002D04BA /* Pacotes */,
+				104D884D2690C98F004A7E0D /* DetalhesViagens */,
+				10FFC46E2698BC19009488E8 /* ConfirmacaoPagamento */,
 				10AE044B268AAC9400086DF5 /* ViagemDao */,
-				10AE043C268AA95C00086DF5 /* Assets */,
 				108F94052689EE380044276C /* Main.storyboard */,
+				104D88562690DD63004A7E0D /* Assets */,
 				108F94082689EE390044276C /* Assets.xcassets */,
 				108F940A2689EE390044276C /* LaunchScreen.storyboard */,
 				108F940D2689EE390044276C /* Info.plist */,
@@ -116,23 +198,11 @@
 			path = "app-viagem";
 			sourceTree = "<group>";
 		};
-		10AE043C268AA95C00086DF5 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				10AE043D268AA95C00086DF5 /* img5.jpg */,
-				10AE043E268AA95C00086DF5 /* img4.jpg */,
-				10AE043F268AA95C00086DF5 /* img3.jpg */,
-				10AE0440268AA95C00086DF5 /* img2.jpg */,
-				10AE0441268AA95C00086DF5 /* img1.png */,
-			);
-			name = Assets;
-			path = "../../../../../Downloads/Arquivos Projeto 2/Assets";
-			sourceTree = "<group>";
-		};
 		10AE0447268AABE700086DF5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				108F9413268A8F100044276C /* Viagem.swift */,
+				104D88522690DA38004A7E0D /* PacoteViagem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,9 +235,26 @@
 		10AE044B268AAC9400086DF5 /* ViagemDao */ = {
 			isa = PBXGroup;
 			children = (
+				104D88542690DD41004A7E0D /* PacoteViagemDAO.swift */,
 				10AE0454268AAE0800086DF5 /* ViagemDAO.swift */,
 			);
 			path = ViagemDao;
+			sourceTree = "<group>";
+		};
+		10FFC46E2698BC19009488E8 /* ConfirmacaoPagamento */ = {
+			isa = PBXGroup;
+			children = (
+				10FFC46F2698BC56009488E8 /* Controller */,
+			);
+			path = ConfirmacaoPagamento;
+			sourceTree = "<group>";
+		};
+		10FFC46F2698BC56009488E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10FFC4702698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,14 +314,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104D88742690DD63004A7E0D /* icon_breakfast.png in Resources */,
+				104D886A2690DD63004A7E0D /* icon_package@2x.png in Resources */,
+				104D88732690DD63004A7E0D /* img2.jpg in Resources */,
+				104D886F2690DD63004A7E0D /* img4.jpg in Resources */,
+				104D886E2690DD63004A7E0D /* img5.jpg in Resources */,
+				104D88722690DD63004A7E0D /* img3.jpg in Resources */,
 				108F940C2689EE390044276C /* LaunchScreen.storyboard in Resources */,
-				10AE0446268AA95C00086DF5 /* img1.png in Resources */,
-				10AE0444268AA95C00086DF5 /* img3.jpg in Resources */,
-				10AE0443268AA95C00086DF5 /* img4.jpg in Resources */,
-				10AE0442268AA95C00086DF5 /* img5.jpg in Resources */,
+				104D88752690DD63004A7E0D /* img1.png in Resources */,
+				104D88682690DD63004A7E0D /* icon_back.png in Resources */,
 				108F94092689EE390044276C /* Assets.xcassets in Resources */,
+				104D886C2690DD63004A7E0D /* img8.jpg in Resources */,
+				104D88712690DD63004A7E0D /* img7.jpg in Resources */,
 				108F94072689EE380044276C /* Main.storyboard in Resources */,
-				10AE0445268AA95C00086DF5 /* img2.jpg in Resources */,
+				104D88772690DD63004A7E0D /* img10.jpg in Resources */,
+				104D88692690DD63004A7E0D /* icon_search@2x.png in Resources */,
+				104D886D2690DD63004A7E0D /* icon_airplane.png in Resources */,
+				104D88702690DD63004A7E0D /* img6.jpg in Resources */,
+				104D88782690DD63004A7E0D /* icon_hotel.png in Resources */,
+				104D886B2690DD63004A7E0D /* img9.jpg in Resources */,
+				104D88762690DD63004A7E0D /* img11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +347,14 @@
 				1065F6B2268D454D00170A78 /* PacotesViagensViewController.swift in Sources */,
 				108F9414268A8F100044276C /* Viagem.swift in Sources */,
 				108F94042689EE380044276C /* ViewController.swift in Sources */,
+				104D88512690CA22004A7E0D /* DetalhesViagensViewController.swift in Sources */,
+				10FFC4712698BC84009488E8 /* ConfirmacaoPagamentoViewController.swift in Sources */,
 				1065F6B4268D468200170A78 /* PacoteViagemCollectionViewCell.swift in Sources */,
 				10AE0439268AA66700086DF5 /* TableViewCell.swift in Sources */,
+				104D88532690DA38004A7E0D /* PacoteViagem.swift in Sources */,
 				10AE0455268AAE0800086DF5 /* ViagemDAO.swift in Sources */,
 				108F94002689EE380044276C /* AppDelegate.swift in Sources */,
+				104D88552690DD41004A7E0D /* PacoteViagemDAO.swift in Sources */,
 				108F94022689EE380044276C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
