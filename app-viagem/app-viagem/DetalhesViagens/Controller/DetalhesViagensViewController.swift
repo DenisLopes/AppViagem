@@ -14,10 +14,9 @@ class DetalhesViagensViewController: UIViewController {
     @IBOutlet weak var labelDescricaoPacoteViagem: UILabel!
     @IBOutlet weak var labelDataViagemPacoteViagem: UILabel!
     @IBOutlet weak var labelPrecoPacoteViagem: UILabel!
-    @IBOutlet weak var scrollPrincipal: UIScrollView!
-    @IBOutlet weak var textFieldData: UITextField!
     
-    
+//    @IBOutlet weak var scrollPrincipal: UIScrollView!
+//    @IBOutlet weak var textFieldData: UITextField!
     
     
     var pacoteSelecionado:PacoteViagem? = nil
@@ -54,11 +53,12 @@ class DetalhesViagensViewController: UIViewController {
         datePickerView.addTarget(self, action: #selector(exibeData(sender:)), for: .valueChanged)
     }
     
-    @IBAction func botaoVolatar(_ sender: UIButton) {
+    @IBAction func botaoVoltar(_ sender: UIButton) {
         if let navigation = navigationController{
             navigation.popViewController(animated: true)
         }
     }
+    
     
     @IBAction func botaoFinalizarCompra(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
